@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="Splicer_HMI_UWP_VER_1_0.TrashPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Splicer_HMI_UWP_VER_1_0"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="Lavender" Orientation="Vertical">
+        <Pivot x:Name="rootPivot" Title="TRASH MODE">
+            <Pivot.RightHeader>
+                <CommandBar ClosedDisplayMode="Compact" Background="LightSlateGray">
+                    <AppBarButton Icon="Back" Label="Previous" Click="BackButton_Click"/>
+                    <AppBarButton Icon="Forward" Label="Next"  Click="NextButton_Click"/>
+                </CommandBar>
+            </Pivot.RightHeader>
+            <PivotItem Header="Machine Settings" >
+                <StackPanel>
+                </StackPanel>
+            </PivotItem>
+            <PivotItem Header="Runtime">
+                <StackPanel>
+                </StackPanel>
+            </PivotItem>
+        </Pivot>
+    </StackPanel>
+</Page>

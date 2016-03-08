@@ -1,0 +1,9 @@
+﻿<Application
+    x:Class="Splicer_HMI_UWP_VER_1_0.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Splicer_HMI_UWP_VER_1_0"
+    RequestedTheme="Light">
+
+</Application>
+

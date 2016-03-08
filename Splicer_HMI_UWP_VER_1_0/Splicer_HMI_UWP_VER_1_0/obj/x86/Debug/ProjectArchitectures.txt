@@ -1,0 +1,1 @@
+C:\Users\Andy Liu\Documents\Repos\Splicer_Project\Splicer_HMI_UWP_VER_1_0\Splicer_HMI_UWP_VER_1_0\Splicer_HMI_UWP_VER_1_0.csproj;x86
